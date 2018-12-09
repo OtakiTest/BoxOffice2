@@ -15,6 +15,7 @@
 		13567E5321BCFF9800344274 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13567E5221BCFF9800344274 /* MoviesViewController.swift */; };
 		13567E5521BD005D00344274 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13567E5421BD005D00344274 /* Movie.swift */; };
 		13567E5721BD008300344274 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13567E5621BD008300344274 /* SampleData.swift */; };
+		13567E5921BD0ACA00344274 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13567E5821BD0ACA00344274 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		13567E5221BCFF9800344274 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		13567E5421BD005D00344274 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		13567E5621BD008300344274 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		13567E5821BD0ACA00344274 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				13567E4021BCFBC300344274 /* AppDelegate.swift */,
 				13567E4221BCFBC300344274 /* ViewController.swift */,
 				13567E4421BCFBC300344274 /* Main.storyboard */,
+				13567E5821BD0ACA00344274 /* MovieCell.swift */,
 				13567E5421BD005D00344274 /* Movie.swift */,
 				13567E5621BD008300344274 /* SampleData.swift */,
 				13567E4721BCFBC400344274 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				13567E4321BCFBC300344274 /* ViewController.swift in Sources */,
 				13567E4121BCFBC300344274 /* AppDelegate.swift in Sources */,
+				13567E5921BD0ACA00344274 /* MovieCell.swift in Sources */,
 				13567E5521BD005D00344274 /* Movie.swift in Sources */,
 				13567E5721BD008300344274 /* SampleData.swift in Sources */,
 				13567E5321BCFF9800344274 /* MoviesViewController.swift in Sources */,

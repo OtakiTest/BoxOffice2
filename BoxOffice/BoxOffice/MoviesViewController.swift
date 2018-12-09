@@ -22,11 +22,10 @@ extension MoviesViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
         
         let movie = movies[indexPath.row]
-        cell.textLabel?.text = movie.name
-        cell.detailTextLabel?.text = movie.director
+        cell.movie = movie
         
         return cell
     }
