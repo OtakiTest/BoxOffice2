@@ -11,6 +11,25 @@ import UIKit
 class MoviesViewController: UITableViewController {
     
     var movies = SampleData.generateMoviesData()
+    
+    @IBOutlet weak var settingsButton: UIBarButtonItem!
+    
+    @IBAction func settingsButtonAction(_ sender: Any) {
+        
+        let optionMenu = UIAlertController(title: nil, message: "정렬방식", preferredStyle: .actionSheet)
+        
+        let orderByBooking = UIAlertAction(title: "예매율", style: .default)
+        let orderByCuration = UIAlertAction(title: "큐레이션", style: .default)
+        let orderByDate = UIAlertAction(title: "개봉일", style: .default)
+        let cancelAction = UIAlertAction(title: "취소", style: .cancel)
+        
+        optionMenu.addAction(orderByBooking)
+        optionMenu.addAction(orderByCuration)
+        optionMenu.addAction(orderByDate)
+        optionMenu.addAction(cancelAction)
+        
+        self.present(optionMenu, animated: true, completion: nil)
+    }
 }
 
 // MARK: - UITableViewDataSource
