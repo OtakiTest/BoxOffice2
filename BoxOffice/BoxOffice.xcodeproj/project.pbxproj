@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134970CF21C41B3900170E6A /* MoviesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134970CE21C41B3900170E6A /* MoviesCollectionViewController.swift */; };
+		134970D121C41DF800170E6A /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134970D021C41DF800170E6A /* MovieCollectionViewCell.swift */; };
 		13567E4121BCFBC300344274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13567E4021BCFBC300344274 /* AppDelegate.swift */; };
 		13567E4321BCFBC300344274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13567E4221BCFBC300344274 /* ViewController.swift */; };
 		13567E4621BCFBC300344274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13567E4421BCFBC300344274 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		134970CE21C41B3900170E6A /* MoviesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionViewController.swift; sourceTree = "<group>"; };
+		134970D021C41DF800170E6A /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		13567E3D21BCFBC300344274 /* BoxOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13567E4021BCFBC300344274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13567E4221BCFBC300344274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,10 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				13567E5221BCFF9800344274 /* MoviesViewController.swift */,
+				134970CE21C41B3900170E6A /* MoviesCollectionViewController.swift */,
 				13567E4021BCFBC300344274 /* AppDelegate.swift */,
 				13567E4221BCFBC300344274 /* ViewController.swift */,
 				13567E4421BCFBC300344274 /* Main.storyboard */,
 				13567E5821BD0ACA00344274 /* MovieCell.swift */,
+				134970D021C41DF800170E6A /* MovieCollectionViewCell.swift */,
 				13D5A90421C03D38003CF554 /* SettingsTabBarController.swift */,
 				13567E5421BD005D00344274 /* Movie.swift */,
 				13567E5621BD008300344274 /* SampleData.swift */,
@@ -155,6 +161,8 @@
 				13567E5921BD0ACA00344274 /* MovieCell.swift in Sources */,
 				13567E5521BD005D00344274 /* Movie.swift in Sources */,
 				13567E5721BD008300344274 /* SampleData.swift in Sources */,
+				134970CF21C41B3900170E6A /* MoviesCollectionViewController.swift in Sources */,
+				134970D121C41DF800170E6A /* MovieCollectionViewCell.swift in Sources */,
 				13567E5321BCFF9800344274 /* MoviesViewController.swift in Sources */,
 				13D5A90521C03D38003CF554 /* SettingsTabBarController.swift in Sources */,
 			);
