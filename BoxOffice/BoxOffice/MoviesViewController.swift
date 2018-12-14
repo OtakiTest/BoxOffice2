@@ -10,6 +10,10 @@ import UIKit
 
 class MoviesViewController: UITableViewController {
     
+//    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+//        return 150
+//    }
+    
     var movies = SampleData.generateMoviesData()
     
     @IBOutlet weak var settingsButton: UIBarButtonItem!
@@ -30,6 +34,7 @@ class MoviesViewController: UITableViewController {
         
         self.present(optionMenu, animated: true, completion: nil)
     }
+    
 }
 
 // MARK: - UITableViewDataSource

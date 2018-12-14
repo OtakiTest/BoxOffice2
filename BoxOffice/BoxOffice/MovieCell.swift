@@ -12,14 +12,14 @@ class MovieCell: UITableViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var directorLabel: UILabel!
-    @IBOutlet weak var ratingImageView: UIImageView!
+    @IBOutlet weak var movieImageView: UIImageView!
     
     var movie: Movie? {
         didSet {
             guard let movie = movie else { return }
             nameLabel.text = movie.name
             directorLabel.text = movie.director
-            ratingImageView.image = image(forRating: movie.rating)
+            movieImageView.image = image(forRating: movie.rating)
         }
     }
     
